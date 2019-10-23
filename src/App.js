@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import FlexDemo from './views/flex';
 
-import Todo from './views/todo'
+import Todo from './views/baseTodo'
 
 function App() {
   return (
