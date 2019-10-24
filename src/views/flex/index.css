@@ -1,0 +1,21 @@
+.FlexDemo1{
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+ul{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.flexItems{
+    background: #333;
+    color: #fff;
+    margin: 5px;
+    padding: 2px;
+}

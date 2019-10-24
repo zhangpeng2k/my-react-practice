@@ -67,7 +67,7 @@ export default class TodoList extends Component {
             <input type="text" value={this.state.text} onChange={this.handleChange} />
             <button type="button" onClick={this.addTodo}>添加</button>
             <p>{this.state.text}</p>
-            <ul>
+            <ul style={{width:'90%',display:'flex',flexDirection:'column'}}>
                 {
                     this.state.list.map((item, index) => {
                         return (
